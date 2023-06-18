@@ -1,4 +1,5 @@
 // npm run dev
+// token - create const
 
 const TelegramApi = require('node-telegram-bot-api');
 const bot = new TelegramApi(token, { polling: true });
