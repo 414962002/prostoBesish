@@ -1,9 +1,10 @@
 // npm run dev
 // token - create const
 
-const TelegramApi = require('node-telegram-bot-api');
-const bot = new TelegramApi(token, { polling: true });
+import TelegramBot from 'node-telegram-bot-api';
+import {TELEGRAM_BOT_TOKEN} from './token.js';
 
+const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
 const chats = {}
 
 const gameOptions = {

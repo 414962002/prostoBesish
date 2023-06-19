@@ -1,2 +1,4 @@
 node_modules
 const.js
+.env
+token.js
