@@ -1,3 +1,26 @@
+```json
+package.json  
+{
+  "type": "module",
+  "name": "botfolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22"
+  }
+}
+```  
+  
+
 ```javascript
 // Import the TelegramBot package
 import TelegramBot from 'node-telegram-bot-api';
